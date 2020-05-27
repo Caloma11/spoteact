@@ -1,0 +1,55 @@
+.sidebar {
+    width: 224px;
+    height: 100%;
+    padding: 10px;
+    background-color: $darkGray;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    .logo {
+        padding: 1.5rem .8rem;
+        svg {
+            max-width: 130px;
+            p {
+                fill: white;
+            }
+        }
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        font-size: .9rem;
+        li {
+            color: $textGray;
+            border-radius: 5px;
+            padding: .8rem;
+            cursor: pointer;
+            transition: all .3s ease-in;
+            &.active {
+                background-color: $lighterGray;
+            }
+
+            &:hover  {
+                color: white;
+            }
+
+        }
+    }
+
+    .cookies {
+        font-size: .6rem;
+        color: $textGray;
+        text-align: center;
+        margin-top: auto;
+        span {
+            display: block;
+        }
+    }
+}
+
+body {
+    margin-top: 90px;
+}
