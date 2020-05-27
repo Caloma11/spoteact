@@ -1,0 +1,48 @@
+// temporary
+
+body {
+    background-color: red !important;
+    color: white;
+}
+
+// --------------------
+
+.App {
+    height: calc(100vh - 90px);
+    background-color: $lightGray;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: $darkGray;
+
+    .logo {
+        padding: 1.5rem;
+        svg {
+            max-width: 130px;
+            p {
+                fill: white;
+            }
+        }
+    }
+
+}
+
+.outerWrap {
+    background-color: $darkGray;
+    height: 100vh;
+    min-height: 100%;
+}
+
+.musicControls {
+    background-color: $lighterGray;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
