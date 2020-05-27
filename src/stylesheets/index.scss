@@ -1,9 +1,10 @@
 $darkGray: #040404;
 $lightGray: #121212;
 $lighterGray: #272727;
+$textGray: #b3b3b3;
 
 @import "app";
-
+@import "sidebar";
 
 body {
   margin: 0;
@@ -12,6 +13,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.outerWrap {
+    background-color: $darkGray;
+    height: 100vh;
+    min-height: 100%;
 }
 
 code {

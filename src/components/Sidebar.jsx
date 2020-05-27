@@ -4,7 +4,7 @@ function Sidebar() {
     return(
         <div className="sidebar">
             <div className="logo">
-                <svg viewBox="0 0 1134 340" class="spotify-logo--text">
+                <svg viewBox="0 0 1134 340" className="spotify-logo--text">
                     <title>Spotify</title>
                     <path fill="currentColor"
                         d="M8 171c0 92 76 168 168 168s168-76 168-168S268
@@ -67,11 +67,14 @@ function Sidebar() {
             </div>
 
         <ul>
-            <li>Home</li>
+            <li className="active">Home</li>
             <li>Search</li>
             <li>Library</li>
         </ul>
-
+            <div className="cookies">
+                <span>Cookies</span>
+                <span>Privacy</span>
+            </div>
         </div>
     )
 }
